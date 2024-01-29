@@ -1,0 +1,15 @@
+@layer tertiary, secondary, primary;
+
+@import url('./primary.css') layer(primary);
+
+@layer secondary {
+  button {
+    background: green;
+  }
+}
+
+@layer tertiary {
+  button {
+    background: yellow;
+  }
+}
